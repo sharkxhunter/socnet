@@ -7,7 +7,7 @@ class Main extends Component {
     return (
       <div className="container-fluid mt-5">
         <div className="row">
-          <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '500px' }}>
+          <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '500px', minHeight: '200px' }}>
             <div className="content mr-auto ml-auto">
               <p>&nbsp;</p>
                 <form onSubmit={(event) => {
